@@ -1,0 +1,13 @@
+{
+  "name":"movie",
+  "version":"0.0.1",
+  "main":"server/index.js",
+  "scripts":{
+    "server":"node server/index.js"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-logger": "^3.2.0",
+    "koa-session": "^5.10.1"
+  }
+}
